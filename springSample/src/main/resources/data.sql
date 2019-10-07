@@ -1,0 +1,10 @@
+insert into CUSTOMER values (1,'奥村 一馬','okmr8778rmko@iij.ad.jp');
+insert into CUSTOMER values (2,'浜口 美緒','	hamaguti1980@gmo-media.jp');
+insert into CUSTOMER values (3,'細川 鉄次','tetuzihosokawa@aitai.ne.jp');
+insert into CUSTOMER values (4,'中田 喜重','yosisige.nakata@dsn.ad.jp');
+insert into CUSTOMER values (5,'福井 威佐夫','test@pb.co.jp');
+insert into CUSTOMER values (6,'長田 留三','atagan760@dion.ne.jp');
+insert into CUSTOMER values (7,'園田 有三','yuuzou.sonoda@infoseek.jp');
+insert into CUSTOMER values (8,'荒井 芙美子','kmh2118809@mail.goo.ne.jp');
+insert into CUSTOMER values (9,'倉田 安民','mtsymtsy@aitai.ne.jp');
+insert into CUSTOMER values (10,'窪田 佳江','eisoy2474@plala.or.jp');

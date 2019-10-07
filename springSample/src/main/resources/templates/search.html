@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>sample</title>
+</head>
+<body>
+	<form th:action="@{/search}" method="post">
+		<div>
+			<label>id:</label><input type="text" name="id" />
+		</div>
+		<div>
+			<input type="submit" value="search" />
+		</div>
+	</form>
+</body>
+</html>

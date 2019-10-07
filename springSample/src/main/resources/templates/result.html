@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>sample</title>
+  </head>
+  <body>
+	<form th:action="@{/search}" method="post">
+		<div>
+			<label>id:</label><input type="text" name="id" value="" />
+		</div>
+		<div>
+			<input type="submit" value="search" />
+		</div>
+	</form>
+	検索結果：
+    <p th:text="${name}"></p>
+
+	<table>
+     <tr th:each="customer : ${customers}">
+        <td th:text="${customer.id}"></td>
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.email}"></td>
+     </tr>
+     </table>
+
+  </body>
+</html>
